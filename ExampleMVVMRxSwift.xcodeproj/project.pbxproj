@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97484C0E284E82AD008C21FF /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97484C0D284E82AD008C21FF /* ViewModelProtocol.swift */; };
+		97484C12284E832D008C21FF /* ValidationView+Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97484C11284E832D008C21FF /* ValidationView+Reactive.swift */; };
+		97484C14284E8356008C21FF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97484C13284E8356008C21FF /* LoginViewModel.swift */; };
+		97484C17284E8580008C21FF /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97484C16284E8580008C21FF /* AppStep.swift */; };
+		97484C1A284E85C2008C21FF /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97484C19284E85C2008C21FF /* LoginFlow.swift */; };
 		97A7CF10284D407100FA6E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7CF0F284D407100FA6E78 /* AppDelegate.swift */; };
 		97A7CF12284D407100FA6E78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7CF11284D407100FA6E78 /* SceneDelegate.swift */; };
-		97A7CF14284D407100FA6E78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7CF13284D407100FA6E78 /* ViewController.swift */; };
+		97A7CF14284D407100FA6E78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A7CF13284D407100FA6E78 /* LoginViewController.swift */; };
 		97A7CF17284D407100FA6E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A7CF15284D407100FA6E78 /* Main.storyboard */; };
 		97A7CF19284D407300FA6E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A7CF18284D407300FA6E78 /* Assets.xcassets */; };
 		97A7CF1C284D407300FA6E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A7CF1A284D407300FA6E78 /* LaunchScreen.storyboard */; };
@@ -20,10 +25,15 @@
 		0835D18C8B0A909F6E0D82E4 /* Pods-ExampleMVVMRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleMVVMRxSwift.release.xcconfig"; path = "Target Support Files/Pods-ExampleMVVMRxSwift/Pods-ExampleMVVMRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 		7483A15FB506C922F3B6403C /* Pods_ExampleMVVMRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleMVVMRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D73059DC77C14AAAC49692 /* Pods-ExampleMVVMRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleMVVMRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-ExampleMVVMRxSwift/Pods-ExampleMVVMRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		97484C0D284E82AD008C21FF /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		97484C11284E832D008C21FF /* ValidationView+Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValidationView+Reactive.swift"; sourceTree = "<group>"; };
+		97484C13284E8356008C21FF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		97484C16284E8580008C21FF /* AppStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
+		97484C19284E85C2008C21FF /* LoginFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
 		97A7CF0C284D407100FA6E78 /* ExampleMVVMRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleMVVMRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A7CF0F284D407100FA6E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97A7CF11284D407100FA6E78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97A7CF13284D407100FA6E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97A7CF13284D407100FA6E78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		97A7CF16284D407100FA6E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97A7CF18284D407300FA6E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97A7CF1B284D407300FA6E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,8 +66,63 @@
 				90D73059DC77C14AAAC49692 /* Pods-ExampleMVVMRxSwift.debug.xcconfig */,
 				0835D18C8B0A909F6E0D82E4 /* Pods-ExampleMVVMRxSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		97484C0F284E82DC008C21FF /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				97A7CF0F284D407100FA6E78 /* AppDelegate.swift */,
+				97A7CF11284D407100FA6E78 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		97484C10284E8315008C21FF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				97484C11284E832D008C21FF /* ValidationView+Reactive.swift */,
+				97484C13284E8356008C21FF /* LoginViewModel.swift */,
+				97A7CF13284D407100FA6E78 /* LoginViewController.swift */,
+				97A7CF15284D407100FA6E78 /* Main.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		97484C15284E854D008C21FF /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				97484C18284E85B0008C21FF /* LoginFlow */,
+				97484C16284E8580008C21FF /* AppStep.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		97484C18284E85B0008C21FF /* LoginFlow */ = {
+			isa = PBXGroup;
+			children = (
+				97484C19284E85C2008C21FF /* LoginFlow.swift */,
+			);
+			path = LoginFlow;
+			sourceTree = "<group>";
+		};
+		97484C1B284E85EC008C21FF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				97484C0D284E82AD008C21FF /* ViewModelProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		97484C1C284E85F6008C21FF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				97484C0F284E82DC008C21FF /* AppDelegates */,
+				97A7CF18284D407300FA6E78 /* Assets.xcassets */,
+				97A7CF1A284D407300FA6E78 /* LaunchScreen.storyboard */,
+				97A7CF1D284D407300FA6E78 /* Info.plist */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		97A7CF03284D407100FA6E78 = {
@@ -81,13 +146,10 @@
 		97A7CF0E284D407100FA6E78 /* ExampleMVVMRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				97A7CF0F284D407100FA6E78 /* AppDelegate.swift */,
-				97A7CF11284D407100FA6E78 /* SceneDelegate.swift */,
-				97A7CF13284D407100FA6E78 /* ViewController.swift */,
-				97A7CF15284D407100FA6E78 /* Main.storyboard */,
-				97A7CF18284D407300FA6E78 /* Assets.xcassets */,
-				97A7CF1A284D407300FA6E78 /* LaunchScreen.storyboard */,
-				97A7CF1D284D407300FA6E78 /* Info.plist */,
+				97484C1C284E85F6008C21FF /* Common */,
+				97484C1B284E85EC008C21FF /* Protocol */,
+				97484C15284E854D008C21FF /* Navigator */,
+				97484C10284E8315008C21FF /* Login */,
 			);
 			path = ExampleMVVMRxSwift;
 			sourceTree = "<group>";
@@ -207,9 +269,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97A7CF14284D407100FA6E78 /* ViewController.swift in Sources */,
+				97A7CF14284D407100FA6E78 /* LoginViewController.swift in Sources */,
 				97A7CF10284D407100FA6E78 /* AppDelegate.swift in Sources */,
+				97484C14284E8356008C21FF /* LoginViewModel.swift in Sources */,
+				97484C1A284E85C2008C21FF /* LoginFlow.swift in Sources */,
 				97A7CF12284D407100FA6E78 /* SceneDelegate.swift in Sources */,
+				97484C0E284E82AD008C21FF /* ViewModelProtocol.swift in Sources */,
+				97484C17284E8580008C21FF /* AppStep.swift in Sources */,
+				97484C12284E832D008C21FF /* ValidationView+Reactive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +426,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 68FXT4UH73;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExampleMVVMRxSwift/Info.plist;
+				INFOPLIST_FILE = ExampleMVVMRxSwift/Common/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -388,7 +455,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 68FXT4UH73;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExampleMVVMRxSwift/Info.plist;
+				INFOPLIST_FILE = ExampleMVVMRxSwift/Common/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
